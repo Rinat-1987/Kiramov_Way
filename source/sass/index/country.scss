@@ -17,7 +17,6 @@
     justify-content: space-between;
     position: relative;
     width: 900px;
-    margin-top: 50px;
     margin-left: 375px;
     background-image: none;
   }
@@ -280,8 +279,8 @@
   background-color: $orange;
 
   @media (min-width: $tablet-width) {
-    top: 67px;
-    right: 450px;
+    top: 76px;
+    right: 310px;
   }
 
   @media (min-width: $desktop-width) {
@@ -297,6 +296,7 @@
 
   @media (min-width: $tablet-width) {
     width: 322px;
+    padding: 0;
   }
 
   @media (min-width: $desktop-width) {

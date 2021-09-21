@@ -7,7 +7,7 @@
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
-    margin: 160px 70px 0;
+    margin: 200px 70px 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -197,11 +197,11 @@
 
 .price-description {
   position: absolute;
-  bottom: 1315px;
+  bottom: 1290px;
   left: 0;
 
   @media (min-width: $tablet-width) {
-    bottom: 687px;
+    bottom: 659px;
   }
 
   @media (min-width: $desktop-width) {

@@ -5,6 +5,7 @@
     min-width: 616px;
     margin: 0 76px;
   }
+
   @media (min-width: $desktop-width) {
     margin: 0 375px;
   }
@@ -21,6 +22,7 @@
     line-height: 45px;
     color: $grey-opacity;
   }
+
   @media (min-width: $desktop-width) {
     font-style: normal;
     font-size: 55px;
@@ -87,7 +89,6 @@
     margin-bottom: 90px;
   }
 }
-
 
 .travel-way__img {
   width: 288px;

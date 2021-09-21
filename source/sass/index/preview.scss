@@ -85,19 +85,19 @@
 }
 
 .preview__link::after {
-    position: absolute;
-    content: "";
-    background-image: url(../img/icons/arrow.png);
-    right: 31px;
-    top: 17px;
-    width: 16px;
-    height: 16px;
+  position: absolute;
+  content: "";
+  background-image: url(../img/icons/arrow.png);
+  right: 31px;
+  top: 17px;
+  width: 16px;
+  height: 16px;
 
-    @media (min-width: $desktop-width) {
-      background-image: url(../img/icons/arrow-desktop.png);
-      right: 550px;
-      top: 639px;
-      width: 14px;
-      height: 14px;
-    }
+  @media (min-width: $desktop-width) {
+    background-image: url(../img/icons/arrow-desktop.png);
+    right: 550px;
+    top: 639px;
+    width: 14px;
+    height: 14px;
+  }
 }

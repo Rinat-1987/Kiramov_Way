@@ -42,14 +42,18 @@
   position: absolute;
   top: 303px;
   right: 22px;
+  width: auto;
 
   @media (min-width: $tablet-width) {
     bottom: 93px;
-    right: 89px;
+    right: 122px;
+    width: 176px;
+    height: 50px;
+    padding: 18px 40px;
   }
 
   @media (min-width: $desktop-width) {
-    right: 123px;
+    right: 117px;
   }
 }
 
