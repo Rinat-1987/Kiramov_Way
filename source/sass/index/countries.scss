@@ -1,0 +1,34 @@
+.countries {
+  @media (min-width: $desktop-width) {
+    margin-bottom: 250px;
+  }
+}
+
+.countries__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  padding-bottom: 5px;
+  margin: 0 20px;
+  width: 902px;
+  border-bottom: 1px solid $grey-countries;
+
+  @media (min-width: $desktop-width) {
+    width: 900px;
+    margin-left: 375px;
+  }
+}
+
+.countries__item {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: $grey-countries;
+}
+
+.countries__item-active {
+  color: $orange;
+}

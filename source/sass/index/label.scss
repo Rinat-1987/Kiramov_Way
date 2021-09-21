@@ -1,0 +1,34 @@
+.label input {
+  width: 269px;
+  height: 50px;
+  border: 1px solid $grey-countries;
+  margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 19px;
+  }
+
+  &::placeholder {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: $grey;
+    padding: 16px;
+  }
+}
+
+.label--phone::after {
+  position: absolute;
+  content: "";
+  background-image: url(../img/icons/star.png);
+  top: 144px;
+  left: 40px;
+  width: 6px;
+  height: 26px;
+}
+
+.label__email {
+  margin-bottom: 35px;
+}

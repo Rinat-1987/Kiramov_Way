@@ -1,0 +1,15 @@
+.container {
+  margin-bottom: 50px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 140px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url(../img/country-background.svg);
+    background-size: 1444px 1089px;
+    background-repeat: no-repeat;
+    background-position: top 50px right 255px;
+    z-index: -1;
+  }
+}

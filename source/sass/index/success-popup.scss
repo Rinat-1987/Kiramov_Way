@@ -1,0 +1,29 @@
+.success-popup {
+  width: 728px;
+  height: 444px;
+  background-color: $form-background;
+  position: relative;
+  box-sizing: border-box;
+  position: fixed;
+  left: 10%;
+  top: 50%;
+  z-index: 20;
+
+  & p {
+    padding: 179px 164px;
+    width: 320px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 42px;
+  }
+}
+
+.success-popup__cross {
+  position: absolute;
+  content: "";
+  top: 35px;
+  right: 37px;
+  width: 22px;
+  height: 22px;
+  background-image: url(../img/icons/cross-menu-popup.svg);
+}
